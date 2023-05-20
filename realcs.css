@@ -1,0 +1,284 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#big-text{
+	color:#F1e8dd;
+	font-family:impact;
+	letter-spacing:3px;
+	font-size: 60px
+}
+
+#trade{
+	background-color:#E6412e;
+	width: 450px;
+}
+.nav{
+	background-color: #E6412e;
+	overflow: hidden;	
+	
+	
+	
+}
+
+body{
+	background-color: #F1e8dd;
+}
+
+#nav{
+	position: -webkit-sticky;
+	position: sticky;
+	top:0;
+	z-index:5;
+}
+
+.nav button{
+	position: relative;
+	margin-right: 10px;
+}
+
+.nav button{
+	content:
+}
+
+.btnLogin-popup{
+	color: #F1e8dd;
+	text-decoration: none;
+	font-size: 25px;
+	padding: 15px 50px 15px 50px ;
+	margin-top: 3px;
+	
+	font-family: impact;
+	font-weight: 500px;
+	letter-spacing:0.5px;
+	position: relative;
+	background: transparent;
+	float: right;
+	border-radius: 9px;
+	border-color: #F1e8dd;
+	outline: none;
+	transition: .5s;
+	transform: scale(1);
+}
+
+.btnLogin-popup.logged{
+	transform: scale(0);
+
+}
+
+.btnLogin-popup:hover{
+	background-color: #8D0801;
+	color: #F1e8dd;
+}
+.nav a{
+	color: #F1e8dd;
+	text-decoration: none;
+	font-size: 25px;
+	padding: 50px 30px;
+	font-family: impact;
+	letter-spacing:0.5px;
+	position: relative;
+	transition: .5s;
+	
+}
+.nav ul li{
+	float: left;
+	padding: 20px 0px;
+	list-style: none;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	background-color: #8D0801;
+	color: #F1e8dd;
+}
+
+header{
+	background-color:#B12413;
+	padding:30px;
+}
+
+footer{
+	background-color:#B12413;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	position: -webkit-sticky;
+	position: sticky;
+	bottom:0;
+	z-index:5;
+
+}
+
+#mam{
+	color: #F1e8dd;
+	margin: 0px 0px -5px 20px;
+	padding: 15px;
+	font-size: 18px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+p{
+	color: #F1e8dd;
+	margin: 0px 0px -5px 20px;
+	padding: 1px;
+	font-size: 18px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+#titol{
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 26.4px;
+	margin-left:50px;
+	margin-top: 100px;
+}
+
+#tital{
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 700;
+	line-height: 26.4px;
+	margin-top: 100px;
+}
+
+
+#shortdesc{
+	font-family: 'Roboto', sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 30.4px;
+}
+
+#descdiv{
+	width: 800px;
+	margin-left: 150px;
+	margin-top: 0px;
+	margin-bottom: 200px;
+	float: left;
+}
+
+#pic{
+	float: right;
+	margin-right: 140px;
+	margin-left: 200px;
+	width: 600px;
+}
+
+#qualif{
+	width:1200px;
+}
+
+#titoldiv{
+	width:1500px;
+	margin-left:150px;
+}
+
+#eggs{
+	width:500px;
+	margin-left:50px;
+	
+}
+
+.wrapper {
+	position: absolute;
+	width: 400px;
+	height: 440px;
+	background: transparent;
+	border: 2px solid rgba(255, 255, 255, .5);
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	transform: scale(0);
+	transition: transform .5s ease;
+}
+
+.wrapper.active {
+	height: 520px;
+}
+
+
+.wrapper.wow {
+	transform: scale(1);
+	position: relative;
+	transition: 1s ease;
+}
+
+.wrapper.form-box{
+	width: 100%;
+	padding: 40px;
+	
+}
+
+.wrapper.form-box.login{
+	display: none;
+}
+
+.form-box h2 {
+	font-size: 2em;
+	text-align:center; 
+}
+
+.input-box {
+	position: relative;
+	width: 100%;
+	height: 50px;
+	border-bottom: 2px solid;
+	margin: 30px 0;
+	
+}
+
+.input-box label{
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	transform: translateY(-50%);
+	font-size: 1em;
+	font-weight: 500;
+	pointer-events: none;
+	transition: .5s;	
+}
+
+.input-box input {
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	border: none;
+	outline: none; 
+	font-size: 1em;
+	font-weight: 600;
+	padding: 0 35px 0 5px;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+	top: -5px;
+}
+
+.input-box .icon{
+	position: absolute;
+	right: 8px;
+	font-size: 1.2em;
+	line-height: 57px;
+}
+
+.btn{
+	width: 100%;
+	height:  45px;
+	border: none;
+	outline: none;
+	border-radius: 6px;
+	cursor: pointer;
+	margin-top: 20px;
+	font-size: 1em;
+	font-weight: 500;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  
+}
+
